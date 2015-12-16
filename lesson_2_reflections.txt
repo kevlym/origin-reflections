@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initializing creates the data needed that defines a depository, and this data is stored in .git.  This is needed to keep track of the changes and state of the depository as changes are committed to it.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is like the "terminal gate" of a repository where items are gathered
+logically together before submitting into the repository. A staging area allows git to keep track of what's going into the commit, as oppose to manually  keeping track of what should go into a given commit (which introduces errors).
