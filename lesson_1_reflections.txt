@@ -1,0 +1,20 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A person can see the code changes between a working and non-working source file.  The code differences narrows down where the bug is at.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+By looking at the history of a file, a programmer can see what has been added, deleted, and changed over the life of a file.  This can give a programmer some sort of background or context of the code, especially of understanding who did the changes, and why it was done.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs?
+Pros are you have control on what your depositing into the system which reflects something that is useful and working (ie: bug fix, feature) as oppose to just auto checking in or backing up what you're typing, which may not work.  The cons are that there needs to be definition of what should be checked-in and the user must follow those conventions.  Otherwise, version control can either be unwieldy to use with too many check-ins, or does not capture the essence of the development if code is only checked-in sparingly.
+
+Why do you think some version control systems, like GIT, allow saving multiple files in one commit, while others, like Google Docs, treat each file seperately?
+Since GIT was designed for programmers, multi file commits are a ncessary since a software feature may span more than one source file. 
+
+How can youuse the commands git log and git diff to view the history files?
+"git log" is used to provide an overview of what's been changed, while "git diff" provides the details between two commits.
+
+How might using version control make you more confident to make changes that break something?
+Version control allows a programmer to be able to go back to an older working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Create my project!!
