@@ -13,3 +13,6 @@ Branches help in situations such as creating a special version of the code for a
 
 How do the diagrams help you visualize the branch structure?
 You can see the histroy what's been checked-in, and also see what's included in a given branch and the dependencies between each commit.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is the addition of code that's not in the base file. The way it's represented in the diagram is to show what the changes are per branch, and can pinpoint what will be merged.
