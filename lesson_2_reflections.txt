@@ -16,3 +16,11 @@ You can see the histroy what's been checked-in, and also see what's included in 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is the addition of code that's not in the base file. The way it's represented in the diagram is to show what the changes are per branch, and can pinpoint what will be merged.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Auto merges:
+Pros:  Automatically finds differences and notes them in the source file. 
+Cons:  No context given with the differences.  Need engineering time to analyze the differences and figure out which code is in or out.
+Manuall mergs:
+Pros:  None
+Cons:  Higher probability of introducing user errors while merging the code. Manually need to diff the source files and find out which parts are different and the same.
