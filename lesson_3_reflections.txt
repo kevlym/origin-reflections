@@ -4,3 +4,8 @@ and baseline repository.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A programmer might be working on a bug for particular branch and version, so that programmer wants to keep intact the contents and not be updated automatically.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Branch is a copy of the local depository at a given point of time in the repository.  The branch is linked to that point.
+Clone is a copy of the repository and the copy is not linked to that repository.
+Fork is like a branch, except that it's on GitHub.
